@@ -1,0 +1,210 @@
+*{
+    font-family: 'Arial';
+}
+
+/*BODY*/
+
+body {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0;
+    position:relative;
+    padding-bottom: 20em;
+    
+}
+
+/* HEADER */
+
+.header{
+    background-color: #00AF1C;
+    padding: 2em;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 35px;
+
+}
+
+
+.header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-size: 32px;
+
+}
+
+.header ul {
+    display: flex;
+
+}
+
+.header li {
+    margin-left: 1rem;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+/* HOME*/
+
+
+h2 {
+    margin-top: 30px;
+}
+
+.home {
+    color:#3B06D2;
+}
+
+
+section {
+    padding: 1em;
+}
+
+.section-home {
+    margin-top: 27px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+/*SERVICIOS*/
+
+
+.servicios{
+    color:#D206B2;
+}
+
+li {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.ul-servicios li:first-child {
+    color:#FF0000;
+}
+
+.ul-servicios li:nth-child(2) {
+    color:#1400FF;
+}
+
+.ul-servicios li:nth-child(3) {
+    color:#D79B00;
+}
+
+.ul-servicios li:nth-child(4) {
+    color:#03B2B2;
+}
+
+/*PORTAFOLIO*/
+
+.portafolio {
+    color: #AAD206;
+}
+
+
+.ul-portafolio li:first-child {
+    color:#AE8800;
+}
+
+.ul-portafolio li:nth-child(2) {
+    color: #AE280B;
+}
+
+.ul-portafolio li:nth-child(3) {
+    color:#060564;
+}
+
+.ul-portafolio li:nth-child(4) {
+    color:#637300;
+}
+
+/*CONTACTO*/
+
+
+.contacto {
+    color:#06D2C6;
+}
+
+input {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 99.7%;
+    height: 88px;
+    margin-bottom: 40px;
+}
+
+input[type="textarea"] {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #000;
+    height: 214px;
+    margin-bottom: 37px;
+    padding-bottom: 150px;
+}
+
+input, button {
+    box-sizing: border;
+    border: 1px solid;
+}
+
+button {
+    border-color: #00AF1C;
+    background-color:#FFFFFF;
+    color: #00AF1C;
+    margin:0;
+    height: 73px;
+    width: 195px;
+    font-size: 22px;
+}
+
+/*FOOTER*/
+
+.container2{
+    display: flex;
+    margin: 20px;
+    background-color: #00AF1C;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+}
+
+
+
+
+footer {
+    background-color: #00AF1C;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    color: #FFFFFF;
+}
+
+
+.codigo {
+    position: relative;
+
+}
+
+
+body section {
+    padding-top: 0.5em;
+    padding-left: 2em;
+}
